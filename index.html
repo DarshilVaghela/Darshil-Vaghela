@@ -1,17 +1,151 @@
 <!DOCTYPE html>
-<head>
-  <title>Heading Tags</title>
-</head>
-<body>
-<h1>Book</h1>
-<h2>Chapter 1</h2>
-<h3>Section 1</h3>
-<h3>Section 2</h3>
-<h2>Chapter 2</h2>
-<h3>Section 1</h3>
-<h4>Diagram 1</h4>
-<h2>Chapter 3</h2>
-<h3>Section 1</h3>
-<h3>Section 2</h3>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <title>Darshil Vaghela</title>
+  <link rel="icon" type="image/x-icon" href="D.jpg">
+</head>
+
+<body>
+  <!--===== HEADER =====-->
+  <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Darshil Vaghela</a>
+                </div>
+  
+                   
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </header>
+
+  <main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid" id="home">
+      <div class="home__data">
+        <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Darshil Vaghela</span><br>An aspiring<br>web
+          developer</h1>
+
+        <a href="#" class="button">Resume</a>
+      </div>
+
+      <div class="footer__social">
+        <a href="https://www.linkedin.com/in/darshil-vaghela-025373205/" class="home__social-icon"><i
+            class="fab fa-linkedin"></i></a>
+        <a href="mailto:darshilvaghela4@gmail.com" class="home__social-icon"><i class="fa fa-envelope"></i></a>
+        <a href="https://github.com/DarshilVaghela" class="home__social-icon"><i class="fab fa-github"></i></a>
+      </div>
+    </section>
+
+    <!--===== ABOUT =====-->
+    <section class="about section " id="about">
+      
+      <h2 class="section-title">About</h2>
+
+      <div class="about__container bd-grid">
+        <div class="about__img">
+          <img src="Darshil.jpg" alt="">
+        </div>
+        <div>
+          <h2 class="about__subtitle">I'am Darshil</h2>
+          <p class="about__text">A web developer. Currently studying in 10<sup>th</sup> standard at Kokilaben Dhirubhai
+            Ambani Reliance Foundation School.An
+            enthusiast programmer with an appetite for learning new technologies to apply in practical problems. I am a
+            self-starter , quick learner and good team player.</p>
+        </div>
+      </div>
+    </section>
+
+    <!--===== SKILLS =====-->
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills__container bd-grid">
+        <div>
+          <h2 class="skills__subtitle">Profesional Skills</h2>
+
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='fa-brands fa-python skills__icon'></i>
+              <span class="skills__name">Python</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="fa-brands fa-html5 skills__icon"></i>
+              <span class="skills__name">HTML5</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='fa-brands fa-css3-alt skills__icon'></i>
+              <span class="skills__name">CSS3</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class=' fa-brands fa-square-js skills__icon'></i>
+              <span class="skills__name">JAVASCRIPT</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='fa-brands fa-bootstrap skills__icon'></i>
+              <span class="skills__name">Bootsrap</span>
+            </div>
+          </div>
+        </div>
+<div class="work__img">
+        <div class="work__img img ">
+          <img src="work3.jpg" alt="">
+        </div>
+</div>
+       
+      </div>
+    </section>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Darshil</p>
+      <div class="footer__social">
+        <a href="https://www.linkedin.com/in/darshil-vaghela-025373205/" class="footer__icon"><i
+            class="fab fa-linkedin"></i></a>
+        <a href="mailto:darshilvaghela4@gmail.com" class="footer__icon"><i class="fa fa-envelope"></i></a>
+        <a href="https://github.com/DarshilVaghela" class="footer__icon"><i class="fab fa-github"></i></a>
+
+      </div>
+      <p class="footer__copy">&#169; All rigths reserved</p>
+    </footer>
+
+
+    <!--===== SCROLL REVEAL =====-->
+
+    <!--===== MAIN JS =====-->
+    <script src="main.js"></script>
 </body>
+
+</html>
